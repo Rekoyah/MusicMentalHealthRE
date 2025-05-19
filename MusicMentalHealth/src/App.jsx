@@ -14,7 +14,7 @@ function App() {
         labels: ["0-2.40", "2.40-4.80", "4.80-7.20", "7.20-9.60", "9.60-12", "12-14.40", "14.40-16.80", "16.80-19.20", "19.20-21.60", "21.60-24"],
         datasets: [
           {
-            label: "# of Hours Music Played Per Day",
+            label: "# of Respondents; Hours Music Played Per Day",
             data: [338, 210, 116, 32, 21, 11, 3, 0, 0, 3],
         },
       ],
@@ -25,7 +25,7 @@ function App() {
           labels: ["0-1", "1-2", "2-3", "3-4", "4-5", "5-6", "6-7", "7-8", "8-9", "9-10"],
           datasets: [
             {
-              label: "Self-Reported Depression, on a scale of 0-10",
+              label: "# of Respondents; Self-Reported Depression, on a scale of 0-10",
               data: [84, 40, 93, 61, 58, 56, 88, 96, 77, 83],
           },
         ],
